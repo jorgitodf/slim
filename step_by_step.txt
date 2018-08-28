@@ -1,0 +1,12 @@
+https://www.slimframework.com/
+
+Instalação do Slim
+composer require slim/slim "^3.0"
+
+Pimple -> gerenciador de dependecy injection
+
+php -S localhost:8080 -t public
+
+composer require slim/php-view monolog/monolog
+
+
