@@ -1,6 +1,6 @@
 https://www.slimframework.com/
 
-InstalaÁ„o do Slim
+InstalaÔøΩÔøΩo do Slim
 composer require slim/slim "^3.0"
 
 Pimple -> gerenciador de dependecy injection
@@ -8,5 +8,14 @@ Pimple -> gerenciador de dependecy injection
 php -S localhost:8080 -t public
 
 composer require slim/php-view monolog/monolog
+
+composer create-project slim/slim-skeleton
+
+https://github.com/slimphp/Slim-Skeleton
+
+instala√ß√£o Eloquent
+composer require illuminate/database
+
+
 
 

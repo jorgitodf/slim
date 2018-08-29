@@ -9,8 +9,8 @@ $app->get('/hello', function() {
 });
 
 $app->get('/{name}', function(Request $request, Response $response, $args) {
-    var_dump($args);
-    return '';
+    $this->logger->info("Slim-App / route");
+    return $this->renderer->render($response, 'index.phtml', $args);
 });
 
 $app->get('/hello/[{name}]', function(Request $request, Response $response) {

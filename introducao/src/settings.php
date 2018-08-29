@@ -5,7 +5,7 @@ return [
         'displayErrorDetails' => true,
 
         'renderer' => [
-            'template_path' => __DIR__.'/../template'
+            'template_path' => __DIR__.'/../template/'
         ],
 
         'logger' => [
