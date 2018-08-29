@@ -16,6 +16,14 @@ https://github.com/slimphp/Slim-Skeleton
 instalação Eloquent
 composer require illuminate/database
 
+composer require robmorgan/phinx
+para realizar as migrations
+
+rodar o phinx
+vendor/bin/phinx
+
+composer require symfony/console
+pacote para manipular arquivos no console
 
 
 
