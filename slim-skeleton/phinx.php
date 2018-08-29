@@ -4,8 +4,8 @@ require __DIR__.'/helpers/helpers.php';
 
 return [
     'paths' => [
-        'migrations' => __DIR__.'/db/migrations',
-        'seeds' => __DIR__.'/db/seeds'
+        'migrations' => path_modules('/db/migrations'),
+        'seeds' => path_modules('/db/seeds')
     ],
     'environments' => [
         'default_migration_table' => 'phinxlog',
